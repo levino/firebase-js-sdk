@@ -2452,8 +2452,6 @@ __metadata:
     rollup-plugin-typescript2: 0.31.2
     tslib: ^2.1.0
     typescript: 4.7.4
-  peerDependencies:
-    "@firebase/app-compat": 0.x
   languageName: unknown
   linkType: soft
 
