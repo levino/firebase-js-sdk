@@ -45,11 +45,11 @@
     "add-compat-overloads": "ts-node-script ../../scripts/build/create-overloads.ts -i ../database/dist/public.d.ts -o dist/database-compat/src/index.d.ts -a -r Database:types.FirebaseDatabase -r Query:types.Query -r DatabaseReference:types.Reference -r FirebaseApp:FirebaseAppCompat --moduleToEnhance @firebase/database"
   },
   "dependencies": {
+    "@firebase/component": "0.6.0",
     "@firebase/database": "0.14.0",
     "@firebase/database-types": "0.10.0",
     "@firebase/logger": "0.4.0",
     "@firebase/util": "1.8.0",
-    "@firebase/component": "0.6.0",
     "tslib": "^2.1.0"
   },
   "devDependencies": {
